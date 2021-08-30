@@ -1,7 +1,7 @@
 # camera_calibration
 This repository contains my code, which is part of cameras calibration tool project.
 
-### User interface
+## User interface
 This is what the user interface looks like.
 That's the main window. Here you can find various settings and the 'Image Width & Height' list that allows you to add, edit and delete sizes of image, since this also affects the quality of calibration.
 ![MainWindow](https://user-images.githubusercontent.com/61746700/131347168-d32da3a1-1065-49c1-b255-d8fc0cdc361a.PNG)
@@ -13,3 +13,7 @@ Here is the settings window you get after pressing the Settings button.
 These windows you'll get after pressing on Edit and Add icons on the left side of the main window next to the list.
 ![Edit](https://user-images.githubusercontent.com/61746700/131347700-f1bb6bfc-f013-437c-86d7-8d6f29d6baca.png)
 ![Add](https://user-images.githubusercontent.com/61746700/131347718-22524536-f56a-401d-ad84-d06f58f5bbb1.png)
+## Find chessboard corners
+To implement the search for key points, the following articles were used
+* 'Automatic checkerboard detection for camera calibration using self-correlation' by Yizhen Yan, Peng Yang, Lei Yan and other;
+* 'Efﬁcient Non-Maximum Suppression' by Alexander Neubeck and Luc Van Gool.
