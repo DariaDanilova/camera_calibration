@@ -36,6 +36,7 @@ class AppInterface(App):
         self.__iatObj.setImageW(int(self.row[0]))
         self.__iatObj.setImageH(int(self.row[1]))
         
+        #from row 40 to 90 is not mine
         patternSize=(9,6)
         CM=ch_m.chess_map(self.__iatObj.getImageH(),self.__iatObj.getImageW(),40,patternSize)
         CF=ch_m.chessboardFinder(patternSize)
@@ -86,7 +87,7 @@ class AppInterface(App):
             self.i=1
             self.__iatObj.kill()
             endTime = datetime.now() 
-            print("Время выполнения: ", endTime - startTime)
+            print("Execution time: ", endTime - startTime)
          
     def add(self):
         self.row = self.ui.listWidget.currentRow()
