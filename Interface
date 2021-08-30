@@ -1,0 +1,6 @@
+Interface of cameras calibration tool.
+
+Run the file AppInterface.py
+Interface.py - the main interface window.
+Settings.py - settings window.
+get_square_size.py - reading the value of the size of the chessboard square from the field of the settings window.
