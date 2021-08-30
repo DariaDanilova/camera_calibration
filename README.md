@@ -17,3 +17,6 @@ These windows you'll get after pressing on Edit and Add icons on the left side o
 To implement the search for key points, the following articles were used
 * 'Automatic checkerboard detection for camera calibration using self-correlation' by Yizhen Yan, Peng Yang, Lei Yan and other;
 * 'Efﬁcient Non-Maximum Suppression' by Alexander Neubeck and Luc Van Gool.
+
+This is the example of the output.
+![corners](https://user-images.githubusercontent.com/61746700/131366382-907dccbc-2de8-4167-8a04-8333a4aa32e3.png)
